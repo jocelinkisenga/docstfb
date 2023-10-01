@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Laravel",
-        "_postman_id": "60b8a837-00ac-4a82-826a-e70e68ea808c",
+        "_postman_id": "24512f56-4008-47a1-8a97-2889d3b4f523",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -19,54 +19,6 @@
             "name": "Endpoints",
             "description": "",
             "item": [
-                {
-                    "name": "GET api\/user",
-                    "request": {
-                        "url": {
-                            "host": "{{baseUrl}}",
-                            "path": "api\/user",
-                            "query": [],
-                            "raw": "{{baseUrl}}\/api\/user"
-                        },
-                        "method": "GET",
-                        "header": [
-                            {
-                                "key": "Content-Type",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Accept",
-                                "value": "application\/json"
-                            }
-                        ],
-                        "body": null,
-                        "description": "",
-                        "auth": {
-                            "type": "noauth"
-                        }
-                    },
-                    "response": [
-                        {
-                            "header": [
-                                {
-                                    "key": "content-type",
-                                    "value": "application\/problem+json"
-                                },
-                                {
-                                    "key": "cache-control",
-                                    "value": "no-cache, private"
-                                },
-                                {
-                                    "key": "access-control-allow-origin",
-                                    "value": "*"
-                                }
-                            ],
-                            "code": 401,
-                            "body": "{\"errors\":[{\"status\":401,\"title\":\"Unauthenticated!\",\"detail\":\"Unauthenticated.\"}]}",
-                            "name": ""
-                        }
-                    ]
-                },
                 {
                     "name": "POST api\/login",
                     "request": {
@@ -276,19 +228,19 @@
                             "formdata": [
                                 {
                                     "key": "numberRoom",
-                                    "value": 20,
+                                    "value": 3,
                                     "type": "text",
                                     "description": ""
                                 },
                                 {
-                                    "key": "HomeName",
-                                    "value": "voluptatem",
+                                    "key": "id_logement",
+                                    "value": "qui",
                                     "type": "text",
                                     "description": ""
                                 },
                                 {
                                     "key": "places",
-                                    "value": 6,
+                                    "value": 17,
                                     "type": "text",
                                     "description": ""
                                 },
@@ -300,7 +252,7 @@
                                 },
                                 {
                                     "key": "description",
-                                    "value": "Voluptates architecto est ratione et.",
+                                    "value": "Odio soluta voluptas adipisci eos soluta assumenda maxime.",
                                     "type": "text",
                                     "description": ""
                                 },
@@ -429,7 +381,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"user_id\":7,\"amount\":2,\"date_subsciption\":\"2023-10-01T15:37:29\"}"
+                            "raw": "{\"user_id\":19,\"amount\":17,\"date_subsciption\":\"2023-10-01T23:10:26\"}"
                         },
                         "description": "",
                         "auth": {
@@ -450,7 +402,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "12",
+                                    "value": "19",
                                     "description": "The ID of the subscription."
                                 }
                             ]
@@ -506,7 +458,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "2",
+                                    "value": "20",
                                     "description": "The ID of the subscription."
                                 }
                             ]
@@ -524,7 +476,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"room_id\":20,\"user_id\":17,\"amount\":17,\"date_subsciption\":\"2023-10-01T15:37:29\",\"status\":true}"
+                            "raw": "{\"room_id\":15,\"user_id\":5,\"amount\":5,\"date_subsciption\":\"2023-10-01T23:10:26\",\"status\":true}"
                         },
                         "description": "",
                         "auth": {
@@ -545,7 +497,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "15",
+                                    "value": "12",
                                     "description": "The ID of the subscription."
                                 }
                             ]
@@ -647,7 +599,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"et\",\"matricule\":\"aut\",\"promotion\":\"est\",\"faculte\":\"fuga\",\"genre\":\"consequatur\",\"date_subsciption\":\"2023-10-01T15:37:29\",\"status\":true}"
+                            "raw": "{\"nom\":\"dolor\",\"matricule\":\"omnis\",\"promotion\":\"laudantium\",\"faculte\":\"aut\",\"genre\":\"asperiores\",\"date_subsciption\":\"2023-10-01T23:10:27\",\"status\":false}"
                         },
                         "description": "",
                         "auth": {
@@ -750,7 +702,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"cupiditate\",\"matricule\":\"quo\",\"promotion\":\"quis\",\"faculte\":\"consequatur\",\"genre\":\"officia\",\"date_subsciption\":\"2023-10-01T15:37:29\",\"status\":true}"
+                            "raw": "{\"nom\":\"sunt\",\"matricule\":\"quo\",\"promotion\":\"modi\",\"faculte\":\"et\",\"genre\":\"culpa\",\"date_subsciption\":\"2023-10-01T23:10:27\",\"status\":false}"
                         },
                         "description": "",
                         "auth": {
@@ -873,7 +825,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"est\",\"nombreChambre\":17}"
+                            "raw": "{\"nom\":\"nobis\",\"nombreChambre\":14}"
                         },
                         "description": "",
                         "auth": {
@@ -976,7 +928,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"dolorem\",\"nombreChambre\":15}"
+                            "raw": "{\"nom\":\"eos\",\"nombreChambre\":18}"
                         },
                         "description": "",
                         "auth": {
@@ -1091,7 +1043,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"idChambre\":\"facere\",\"IdEtudiant\":\"in\"}"
+                            "raw": "{\"idChambre\":\"magnam\",\"IdEtudiant\":\"quod\"}"
                         },
                         "description": "",
                         "auth": {
@@ -1309,7 +1261,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"repudiandae\",\"matricule\":11,\"promotion\":7,\"faculte\":\"adipisci\",\"telephone\":\"voluptatum\"}"
+                            "raw": "{\"nom\":\"sed\",\"matricule\":1,\"promotion\":16,\"faculte\":\"quia\",\"telephone\":\"cum\"}"
                         },
                         "description": "",
                         "auth": {
@@ -1412,7 +1364,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"nom\":\"ipsam\",\"matricule\":7,\"promotion\":4,\"faculte\":\"nobis\",\"telephone\":\"eligendi\"}"
+                            "raw": "{\"nom\":\"nemo\",\"matricule\":16,\"promotion\":20,\"faculte\":\"aut\",\"telephone\":\"et\"}"
                         },
                         "description": "",
                         "auth": {
@@ -1462,11 +1414,11 @@
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
-                            "path": "api\/reservation\/confirmer",
+                            "path": "api\/reservations\/confirmer",
                             "query": [],
-                            "raw": "{{baseUrl}}\/api\/reservation\/confirmer"
+                            "raw": "{{baseUrl}}\/api\/reservations\/confirmer"
                         },
-                        "method": "POST",
+                        "method": "GET",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -1483,18 +1435,38 @@
                             "type": "noauth"
                         }
                     },
-                    "response": []
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/problem+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "*"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"errors\":[{\"status\":401,\"title\":\"Unauthenticated!\",\"detail\":\"Unauthenticated.\"}]}",
+                            "name": ""
+                        }
+                    ]
                 },
                 {
                     "name": "Summary of annuler",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
-                            "path": "api\/reservation\/annuler",
+                            "path": "api\/reservations\/annuler",
                             "query": [],
-                            "raw": "{{baseUrl}}\/api\/reservation\/annuler"
+                            "raw": "{{baseUrl}}\/api\/reservations\/annuler"
                         },
-                        "method": "POST",
+                        "method": "GET",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -1511,7 +1483,27 @@
                             "type": "noauth"
                         }
                     },
-                    "response": []
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/problem+json"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "*"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"errors\":[{\"status\":401,\"title\":\"Unauthenticated!\",\"detail\":\"Unauthenticated.\"}]}",
+                            "name": ""
+                        }
+                    ]
                 }
             ]
         }
